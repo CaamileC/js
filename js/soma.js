@@ -1,0 +1,5 @@
+var num1 = parseInt(prompt("Digite o primeiro numero"));
+var num2 = parseInt(prompt("Digite o segundo numero"));
+var soma = num1 + num2;
+
+document.getElementById("Resultado").innerHTML = soma;
